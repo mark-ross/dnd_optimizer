@@ -1,0 +1,19 @@
+Use these commands to be add files and such to a repository!
+
+1) git add --all
+    --This adds all the files in the current repository
+
+2) git commit -m "<Insert comment Here>"
+    --This commits the file to be uploaded.
+    --Be sure to use a description, yet brief comment about the changes
+    
+3) git push origin master
+    --This pushes all the changes to the central repository
+    ---If we had more collaborators, we'd use branches, but not necessary with just 2 peeps
+    
+Just remember, it's ALWAYS THIS ORDER:
+Add --> Commit --> Push
+
+Note:
+
+You can have more than one commits before pushing.
